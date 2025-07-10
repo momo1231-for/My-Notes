@@ -1,15 +1,12 @@
-Oracle Cloud Infrastructure (OCI) – Fault Domains
-Overview
-When it comes to the cloud, fault tolerance is key. You want your apps and services to stay online—even if hardware fails behind the scenes. That’s where Oracle Cloud Infrastructure (OCI) and its built-in concept of Fault Domains (FDs) come in.
+# Overview
+When it comes to the cloud, fault tolerance is key. You want your apps and services to stay online, even if hardware fails behind the scenes; if not, what's the point? That’s where Fault Domains (FDs) come in.Fault Domains help improve availability and reduce the risk of failure by logically isolating resources within an [**Availability Domain**](https://github.com/momo1231-for/My-Notes/blob/main/Cloud/Oracle/Oracle%20Availability%20Domains.md)(AD). They give you another layer of protection without needing to change your architecture drastically.
 
-Fault Domains help improve availability and reduce the risk of failure by logically isolating resources within an Availability Domain (AD). They give you another layer of protection without needing to change your architecture drastically.
-
-🧱 What Is a Fault Domain?
-A Fault Domain (FD) is a logical group of hardware within a single Availability Domain. Each AD typically contains three Fault Domains, each on separate physical infrastructure—we’re talking different power sources, servers, and network equipment.
+What Is a Fault Domain?
+A Fault Domain (FD) is a logical group of hardware within a single Availability Domain. Each AD typically contains three Fault Domains, each on a separate physical infrastructure, meaning different power sources, servers, and network equipment.
 
 You can think of Fault Domains as separate “zones” inside a data center. By placing resources in different FDs, you’re spreading your workloads out in a way that helps limit the blast radius if something goes wrong.
 
-🧭 How It’s Structured
+How It’s Structured
 Each Availability Domain includes three Fault Domains by default.
 
 Resources in different FDs are physically isolated, reducing single points of failure.
@@ -17,20 +14,18 @@ Resources in different FDs are physically isolated, reducing single points of fa
 You can manually specify which FD to use when creating certain resources (like compute instances or DB systems).
 
 OCI also allows automatic distribution across FDs when you launch multiple instances.
-
-💡 Why Use Fault Domains?
+Why Use Fault Domains?
 Here’s what you get by using Fault Domains the right way:
 
-🔌 Hardware Isolation
+Hardware Isolation
 A failure in one server, rack, or power circuit won’t take down everything.
 
-⏱️ Higher Uptime
+Higher Uptime
 Distribute workloads across FDs to minimize service impact from localized issues.
 
-⚖️ Load Balancing
+Load Balancing
 Avoid overloading a single rack or power source—FDs help balance resources physically, not just logically.
-
-🧰 Common Use Cases
+Common Use Cases
 Web/App Tiers:
 Spread app servers across all FDs in an AD to ensure one FD going down doesn't take your service offline.
 
