@@ -16,7 +16,7 @@ An **Availability Domain** is a **physically isolated data center** within a reg
 - **Scalable Storage**: Use block volumes and distribute across ADs for performance and reliability.
 - **In-region Disaster Recovery**: Planned failover to another AD in case of outages.
 ## Best Practices
-- Use **Fault Domains** within an AD to further isolate failure risks at the hardware rack level.
+- Use [**Fault Domains**](https://github.com/momo1231-for/My-Notes/blob/main/Cloud/Oracle/Oracle%20Fault%20Domains.md) within an AD to further isolate failure risks at the hardware rack level.
 - Combine **AD-aware deployment** with **region-based** redundancy for stronger DR plans.
 - [**Leverage Oracle Data Guard**](https://github.com/momo1231-for/My-Notes/blob/main/Cloud/Oracle/Oracle%20Data%20Guard.md) to replicate databases across Availability Domains (or even across regions) for automated failover and zero-data-loss recovery.
 - Always verify the **number of ADs available** in a region, as some have only one (especially newer or smaller regions).
