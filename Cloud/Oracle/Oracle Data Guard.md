@@ -3,7 +3,7 @@ Oracle Data Guard is Oracle's built-in solution for **high availability**, **dis
 ## Why This Matters
 While concepts like [**Availability Domains (ADs)**](https://github.com/momo1231-for/My-Notes/blob/main/Cloud/Oracle/Oracle%20Availability%20Domains.md) and **Fault Domains (FDs)** are important for redundancy, **Oracle Data Guard** is the engine that fully brings their capabilities to life. It ensures your databases stay up, secure, and consistent — even across geographic regions.
 ## Key Features
-**Real-Time Data Sync** :Keeps standby databases in sync using redo log shipping and apply services.<p style="margin-bottom: 15px;"> **Automatic Role Switching** :Supports planned **switchover** and automatic **failover** to reduce downtime during maintenance or unexpected issues.</p><p style="margin-bottom: 15px;"><p style="margin-bottom: 15px;"> **Fast-Start Failover (FSFO)**  
+**Real-Time Data Sync** : Keeps standby databases in sync using redo log shipping and apply services.<p style="margin-bottom: 15px;"> **Automatic Role Switching** :Supports planned **switchover** and automatic **failover** to reduce downtime during maintenance or unexpected issues.</p><p style="margin-bottom: 15px;"><p style="margin-bottom: 15px;"> **Fast-Start Failover (FSFO)**  
   Automatically switches to standby in case of a primary database failure.</p><p style="margin-bottom: 15px;">**Snapshot Standby**  
   Temporarily use standby for testing in read/write mode without losing sync capability.</p>
 ## Access Interfaces
