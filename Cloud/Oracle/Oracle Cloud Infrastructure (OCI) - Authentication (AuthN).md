@@ -1,0 +1,2 @@
+## Overview
+Authentication (AuthN) in **Oracle Cloud Infrastructure (OCI)** is the process of verifying the identity of a user or system trying to access OCI services. OCI provides multiple **authentication mechanisms** to securely access and interact with cloud resources—from web console sessions to automated API calls.<p style="margin-bottom: 15px;">Understanding these mechanisms is essential for securing access, enabling automation, and adhering to OCI’s identity and access management (IAM) best practices.</p>
