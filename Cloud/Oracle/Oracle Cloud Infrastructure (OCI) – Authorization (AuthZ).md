@@ -1,0 +1,2 @@
+## Overview
+Authorization (AuthZ) in Oracle Cloud Infrastructure (OCI) determines what actions are allowed on cloud resources and who is allowed to perform them. Unlike [**authentication (AuthN)**](https://github.com/momo1231-for/My-Notes/blob/main/Cloud/Oracle/Oracle%20Cloud%20Infrastructure%20(OCI)%20-%20Authentication%20(AuthN).md), which verifies identity, authorization is about permissions and access control. OCI handles AuthZ using a powerful and flexible IAM policy framework that works across compartments, identity domains, and tenancy-wide configurations.
