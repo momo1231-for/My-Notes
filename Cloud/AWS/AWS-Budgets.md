@@ -1,4 +1,4 @@
-##What is AWS Budgets?
+##What is AWS Budgets?##
 
 AWS Budgets is a cloud cost management and governance service that enables you to set custom spending and usage limits for your account. It continuously monitors your actual and forecasted costs against thresholds you define, sending automated alerts via email or Amazon SNS when those boundaries are breached. 
 
