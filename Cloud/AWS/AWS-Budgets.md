@@ -1,3 +1,9 @@
+##What is AWS Budgets?
+
+AWS Budgets is a cloud cost management and governance service that enables you to set custom spending and usage limits for your account. It continuously monitors your actual and forecasted costs against thresholds you define, sending automated alerts via email or Amazon SNS when those boundaries are breached. 
+
+Within a cloud security architecture, AWS Budgets can double as an early warning tripwire, quickly flagging the abnormal resource spikes often caused by compromised credentials, misconfigured automations, or unauthorized infrastructure deployments.
+
 ### Foundational Guardrails: Cost as a Security Metric
 
 In cloud environments, billing alerts are not just financial tools. They are critical security tripwires. Unexpected spikes in resource consumption are often the earliest indicator of compromised credentials, unauthorized resource deployments, or cryptojacking.
