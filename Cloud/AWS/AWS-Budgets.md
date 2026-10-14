@@ -17,19 +17,19 @@ As a practical application of this principle, this project utilizes an AWS Zero 
 **1. Centralized Visibility**  
 Effective guardrails require continuous monitoring. AWS Budgets provides a dashboard to track actual and forecasted compute spend against our defined security thresholds.  
 
-![AWS Budgets Dashboard](1.png)
+![AWS Budgets Dashboard](https://github.com/momo1231-for/Post-Images/blob/main/Cloud/AWS/1.png)
 
 **2. Standardized Deployment**  
 Using predefined templates ensures rapid and accurate deployment of baseline alerts across new or isolated cloud accounts.  
 
-![Choose Budget Template](2.png)
+![Choose Budget Template](https://github.com/momo1231-for/Post-Images/blob/main/Cloud/AWS/2.png)
 
 **3. Automated Incident Notification**  
 The guardrail is configured to immediately push notifications to the security or operations team, minimizing the time to detect an anomaly.  
 
-![Configure Notifications](3.png)
+![Configure Notifications](https://github.com/momo1231-for/Post-Images/blob/main/Cloud/AWS/3.png)
 
 **4. Continuous Verification**  
 Once deployed, the guardrail actively monitors the environment, ensuring continuous compliance with the established baseline.  
 
-![Budget Created](4.png)
+![Budget Created](https://github.com/momo1231-for/Post-Images/blob/main/Cloud/AWS/4.png)
